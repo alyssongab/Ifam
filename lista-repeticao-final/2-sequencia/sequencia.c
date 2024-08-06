@@ -31,4 +31,6 @@ int main () {
 	printf("\nQuantidade de numeros impares divisiveis por 3 e 7: %i", impares);
 	printf("\nMedia dos numeros pares: %.2f", mediaPares);
 	printf("\nMedia dos numeros impares divisiveis por 3 e 7: %.2f", mediaImpares);
+	
+	return 0;
 }
