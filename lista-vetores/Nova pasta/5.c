@@ -2,7 +2,7 @@
 
 int main() {
 	
-	int N;
+	int N, aux = 0;
 	printf("quantos elementos: ");
 	scanf("%i", &N);
 	
@@ -22,9 +22,7 @@ int main() {
 		printf("\n");
 	}
 	printf("Para o vetor C:\n");	
-	for(int i = 0; i < N; i++) {
-		int aux = 0;
-		
+	for(int i = 0; i < N; i++) {	
 		if(i % 2 == 0) {
 			C[i] = A[i/2];
 		}
@@ -35,7 +33,7 @@ int main() {
 	}
 	
 	for(int i = 0; i < N; i++) {
-		printf("%i\n", C[i]);
+		printf("posicao: %i\n", C[i]);
 	}
 	
 }
