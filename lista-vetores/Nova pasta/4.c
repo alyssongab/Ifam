@@ -23,9 +23,10 @@ int main() {
 			break;
 		}
 	}
-	
+
 	if (aux != 1) {
 		printf("valor nao esta no vetor");
 	}
 	
+	return 0;	
 }

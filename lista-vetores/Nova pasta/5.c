@@ -2,28 +2,26 @@
 
 int main() {
 	
-	int N;
+	int N, aux = 0;
 	printf("quantos elementos: ");
 	scanf("%i", &N);
 	
 	int A[N], B[N], C[N];
 	
-	printf("Para o vetor A:\n");
+	printf("\nPara o vetor A:\n");
 	for(int i = 0; i < N; i++) {
-		printf("posicao %i: ", i+1);
+		printf("posicao %i: ",i);
 		scanf("%i", &A[i]);
-		printf("\n");
 	}
 	
-	printf("Para o vetor B:\n");
+	printf("\nPara o vetor B:\n");
 	for(int i = 0; i < N; i++) {
-		printf("posicao %i: ", i+1);
+		printf("posicao %i: ", i);
 		scanf("%i", &B[i]);
-		printf("\n");
 	}
-	printf("Para o vetor C:\n");	
+	
+	printf("\nPara o vetor C:\n");	
 	for(int i = 0; i < N; i++) {
-		int aux = 0;
 		
 		if(i % 2 == 0) {
 			C[i] = A[i/2];
@@ -35,7 +33,13 @@ int main() {
 	}
 	
 	for(int i = 0; i < N; i++) {
-		printf("%i\n", C[i]);
+		printf("posicao %i\n", C[i]);
 	}
 	
+//	C[0] = A[0]
+//	C[1] = B[0]
+//	C[2] = A[1]
+//	C[3] = B[1]
+	
+	return 0;
 }
