@@ -1,2 +1,2 @@
 # Ifam
- Exercicios resolvidos em C do curso de TADS 
+ Exercicios resolvidos em C do curso de ATP - TADS 
